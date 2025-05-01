@@ -1,5 +1,18 @@
 ## Code Contribution Guidelines for Edreate
 
+## Setup Python
+We use **uv** for Python version and dependency management:
+
+```bash
+pip install uv
+uv venv --python 3.12
+source .venv/bin/activate
+```
+
+After activating the environment, use the Makefile targets below.
+
+---
+
 ### 1. Branching Strategy
 
 - **Branch from `main`**: Always create a new branch off the latest `main`.
